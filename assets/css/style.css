@@ -1,0 +1,218 @@
+body, html {
+  margin:0;
+  font-size: 1em;
+  height: 100%;
+  width: 100%;
+  line-height: 1.4;
+  color: #34495E;
+  cursor:default;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+body {
+  background: white;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position:50% 50%;
+    background-position:50% 50%9 !important;
+
+    position: relative;
+}
+.tint {
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.top {
+    position:absolute;
+    top:0px;
+    height:80px;
+    width:100%;
+    background:rgba(0,0,0,0.05);
+
+}
+.brand {
+    position:absolute;
+    color:white;
+    top:30px;
+    left:50px;
+}
+.menu {
+    position:absolute;
+    color:white;
+    top:30px;
+    right:50px;
+}
+
+.largebox {
+    background: rgba(255,255,255,0.5);
+    width: 240px;
+    height: 240px;
+    border: 1px, solid, white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -120px;
+    margin-left: -120px;
+
+    -ms-transform:rotate(45deg); /* IE9 */
+    -moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+    -o-transform: rotate(45deg);  /* Opera 10.5 */
+    -webkit-transform: rotate3d(0,0,1,45deg);  /* Saf3.1+ */
+    transform: rotate(45deg);
+}
+.box {
+    background: rgba(255,255,255,0.2);
+    width: 150px;
+    height: 150px;
+    border: 1px, solid, white;
+
+    -ms-transform:rotate(45deg); /* IE9 */
+    -moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+    -o-transform: rotate(45deg);  /* Opera 10.5 */
+    -webkit-transform: rotate3d(0,0,1,45deg);  /* Saf3.1+ */
+    transform: rotate(45deg);
+    transition:.4s;
+}
+.box:hover {
+    background:rgba(52, 152, 219, 0.7);
+}
+.inbox {
+    width: 150px;
+    height: 150px;
+    color:white;
+    font-size: 20px;
+    margin-left: 42px;
+    margin-top: 42px;
+    text-align:center;
+    -ms-transform:rotate(-45deg); /* IE9 */
+    -moz-transform: rotate(-45deg);  /* FF3.5/3.6 */
+    -o-transform: rotate(-45deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-45deg);  /* Saf3.1+ */
+    transform: rotate(-45deg);
+}
+#b1 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -195px;
+    margin-left: -255px;
+}
+#b2 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: 45px;
+    margin-left: -255px;
+}
+#b3 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -75px;
+    margin-left: -375px;
+}
+#b4 {
+    position:absolute;
+    top:50%;
+    right:50%;
+    margin-top: -195px;
+    margin-right: -255px;
+}
+#b5 {
+    position:absolute;
+    top:50%;
+    right:50%;
+    margin-top: 45px;
+    margin-right: -255px;
+}
+#b6 {
+    position:absolute;
+    top:50%;
+    right:50%;
+    margin-top: -75px;
+    margin-right: -375px;
+}
+
+
+
+@media (max-width: 1200px) {
+    #des_circ {
+        font-size:50px;
+    }
+    #des_circ2 {
+        font-size:50px;
+    }
+
+}
+@media (max-width: 780px) {
+    .desk {
+        display:none;
+    }
+    .key {
+        min-height: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        background-image: url("assets/images/yellow.jpeg");
+    }
+    .menu {
+        display:none;
+    }
+    .hide {
+        display:none;
+    }
+    .menu_icon{
+        display:block;
+    }
+    #buttonbox {
+        margin-top:-25px;
+    }
+    .text1 {
+        float:none;
+    }
+    .left {
+        float:none;
+        width:100%;
+    }
+    .right {
+        float:none;
+        width:100%;
+    }
+
+}
+@media (max-width: 640px) {
+    .clearmenu {
+        display:none;
+    }
+
+}
+@media (max-width: 500px) {
+    .job, .proj {
+        height:75px;
+    }
+    .key {
+        display: none;
+    }
+
+}
