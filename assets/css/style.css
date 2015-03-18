@@ -73,7 +73,7 @@ a:active {
     left: 0px;
     width: 100%;
     height:100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
 }
 .center {
     position: absolute;
@@ -85,7 +85,7 @@ a:active {
 }
 .landing_logo {
     width: 200px;
-    opacity: .7;
+    opacity: .9;
     position: absolute;
     left: 50%;
     margin-left: -100px;
@@ -118,6 +118,7 @@ a:active {
     width: 100%;
     height: 100%;
     background: #ecf0f1;
+    overflow: hidden;
 }
 
 .largebox {
@@ -240,11 +241,34 @@ a:active {
     top:0px;
     z-index: 200;
     transition:.5s;
-
+}
+.m, .m2, .m3 {
+    height: 40px;
+    width: 100%;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.m:hover, .m2:hover, .m3:hover {
+    background: rgba(26, 188, 156, .8);
+}
+.m_logo {
+    position: absolute;
+    width: 30px;
+    left: 10px;
+    margin-top: 3px;
+}
+.m_box {
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    left: 55px;
+    margin-top: 7px;
 }
 .menu_title {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
+    font-size: 20px;
     color: white;
     font-weight: 300;
     border-color: white;
@@ -294,49 +318,12 @@ a:active {
 }
 
 @media (max-width: 1200px) {
-    #des_circ {
-        font-size:50px;
-    }
-    #des_circ2 {
-        font-size:50px;
-    }
+
 
 }
-@media (max-width: 780px) {
-    .desk {
-        display:none;
-    }
-    .key {
-        min-height: 100%;
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center center;
-
-        background-image: url("assets/images/yellow.jpeg");
-    }
-    .menu {
-        display:none;
-    }
-    .hide {
-        display:none;
-    }
-    .menu_icon{
-        display:block;
-    }
-    #buttonbox {
-        margin-top:-25px;
-    }
-    .text1 {
-        float:none;
-    }
-    .left {
-        float:none;
-        width:100%;
-    }
-    .right {
-        float:none;
-        width:100%;
+@media (max-width: 900px) {
+    .awesome2 {
+        font-size: 25px;
     }
 
 }
