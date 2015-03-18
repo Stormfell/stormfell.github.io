@@ -1,0 +1,7 @@
+Colors scheme:
+Turquoise: #1abc9c
+Dark grey: #2d3538
+Concrete: #95a5a6
+Dark Concrete: #7f8c8d
+Whites:    #ecf0f1
+Dark white: #bdc3c7
