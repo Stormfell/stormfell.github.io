@@ -59,7 +59,7 @@ a:active {
     font-weight: 300;
     top:30px;
     left:80px;
-    font-family: 'Roboto', 'Syncopate', 'Michroma', 'Play', 'Montserrat', 'Russo One', 'Open Sans', Helvetica, Arial, sans-serif;;
+    font-family: 'Roboto', Helvetica, Arial, 'Syncopate', 'Michroma', 'Play', 'Montserrat', 'Russo One', 'Open Sans', Helvetica, Arial, sans-serif;;
 }
 .menu {
     position:absolute;
@@ -94,7 +94,7 @@ a:active {
     color: white;
     text-align: center;
     font-size: 60px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Helvetica;
     font-weight: 400;
     letter-spacing: 13px;
     margin-top:250px;
@@ -103,7 +103,7 @@ a:active {
     color: white;
     text-align: center;
     font-size: 60px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Helvetica;
     font-weight: 100;
     letter-spacing: 13px;
     opacity: 0.7;
@@ -121,6 +121,59 @@ a:active {
     overflow: hidden;
 }
 
+.content {
+    width: 871px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.1);
+    height: 440px;
+}
+
+.modal {
+    width: 250px;
+    height: 400px;
+    background: #2d3538;
+    color: white;
+    float: left;
+    margin: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+    position: relative;
+}
+.icon {
+    margin: auto;
+    margin-top:20px;
+    background: rgba(26, 188, 156, 1);
+    border-radius:100px;
+    width: 140px;
+    height: 140px;
+}
+.c_title {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+.text {
+    margin: 10px;
+}
+.c_button {
+    position: absolute;
+    border: white solid 1px;
+    text-align: center;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -98px;
+    width: 180px;
+    padding: 8px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+}
+.c_button:hover {
+    background: rgba(26, 188, 156, 1);
+    border-radius: 2px;
+    border: rgba(26, 188, 156, 1) solid 1px;
+}
 .largebox {
     background: rgba(26, 188, 156, 0.7);
     width: 240px;
@@ -341,8 +394,4 @@ a:active {
         display: none;
     }
 
-}
-@font-face {
-    font-family: coalition;
-    src: url('cool_font.ttf');
 }
