@@ -6,7 +6,7 @@ body, html {
   line-height: 1.4;
   color: #34495E;
   cursor:default;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
 }
 body {
   background: #ecf0f1;
@@ -120,6 +120,17 @@ a:active {
     background: #ecf0f1;
     overflow: hidden;
 }
+.title {
+    font-size: 40px;
+}
+.about {
+    line-height: 200%;
+    width: 900px;
+    margin: auto;
+    margin-top:40px;
+    font-size: 20px;
+    text-align: center;
+}
 
 .content {
     width: 871px;
@@ -131,6 +142,7 @@ a:active {
 .modal {
     width: 250px;
     height: 400px;
+    text-align: center;
     background: #2d3538;
     color: white;
     float: left;
@@ -138,6 +150,13 @@ a:active {
     transition: 0.5s;
     border-radius: 5px;
     position: relative;
+}
+.svgi {
+    margin-top:23px;
+}
+.svg_icons {
+    fill: #2d3538;
+    width:70%;
 }
 .icon {
     margin: auto;
@@ -308,7 +327,11 @@ a:active {
     position: absolute;
     width: 30px;
     left: 10px;
-    margin-top: 3px;
+    margin-top: 4px;
+    fill: white;
+}
+.m_icon {
+
 }
 .m_box {
     position: absolute;
