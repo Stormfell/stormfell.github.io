@@ -36,7 +36,7 @@ a:active {
 
 .logo {
     position: absolute;
-    top:25px;
+    top:15px;
     left:50px;
     width:26px;
     height:30px;
@@ -47,7 +47,7 @@ a:active {
 .top {
     position:absolute;
     top:0px;
-    height:80px;
+    height:60px;
     width:100%;
     background: #2d3538;
     z-index:100;
@@ -57,14 +57,14 @@ a:active {
     position:absolute;
     color:white;
     font-weight: 300;
-    top:30px;
+    top:20px;
     left:80px;
     font-family: 'Roboto', Helvetica, Arial, 'Syncopate', 'Michroma', 'Play', 'Montserrat', 'Russo One', 'Open Sans', Helvetica, Arial, sans-serif;;
 }
 .menu {
     position:absolute;
     color:white;
-    top:30px;
+    top:20px;
     right:50px;
 }
 .landing {

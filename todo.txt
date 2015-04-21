@@ -1,0 +1,5 @@
+- Optimize font usage
+- Create mobile apps page
+- Create development page
+- Create design page
+- Create a contact page/modal
