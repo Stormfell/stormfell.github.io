@@ -128,7 +128,7 @@ a:active {
 }
 .about {
     line-height: 200%;
-    width: 900px;
+    width: 100%;
     margin: auto;
     margin-top:40px;
     font-size: 20px;
@@ -140,6 +140,7 @@ a:active {
     margin: auto;
     background: rgba(0, 0, 0, 0.1);
     height: 440px;
+    margin-bottom: 60px;
 }
 
 .modal {
@@ -192,7 +193,6 @@ a:active {
 }
 .c_button {
     position: absolute;
-    border: white solid 1px;
     text-align: center;
     bottom: 25px;
     left: 50%;
@@ -200,13 +200,12 @@ a:active {
     width: 180px;
     padding: 8px;
     transition: 0.5s;
-    background: rgba(255, 255, 255, 0.1);
+    background: #1abc9c;
     border-radius: 2px;
 }
 .c_button:hover {
-    background: rgba(26, 188, 156, 1);
+    background: #16a085;
     border-radius: 2px;
-    border: rgba(26, 188, 156, 1) solid 1px;
 }
 
 .button {
@@ -328,8 +327,45 @@ a:active {
     }
 
 }
-@media (max-width: 640px) {
+@media (max-width: 871px) {
     .clearmenu {
+        display:none;
+    }
+    .modal {
+        width: 100%;
+        height:;
+        text-align: center;
+        background: #2d3538;
+        color: white;
+        float: left;
+        margin: 0px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        transition: 0.5s;
+        border-radius: 0px;
+        position: relative;
+    }
+    .modal2 {
+        width: 100%;
+        height:;
+        text-align: center;
+        background: #42494C;
+        color: white;
+        float: left;
+        margin: 0px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        transition: 0.5s;
+        border-radius: 0px;
+        position: relative;
+    }
+    .svg_icons2 {
+        fill: #42494C;
+    }
+    .legal_grey {
+        display: none;
+    }
+    .footer {
         display:none;
     }
 
@@ -369,54 +405,5 @@ a:active {
     .container {
 
     }
-    .modal {
-        width: 100%;
-        height:;
-        text-align: center;
-        background: #2d3538;
-        color: white;
-        float: left;
-        margin: 0px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        transition: 0.5s;
-        border-radius: 0px;
-        position: relative;
-    }
-    .modal2 {
-        width: 100%;
-        height:;
-        text-align: center;
-        background: #42494C;
-        color: white;
-        float: left;
-        margin: 0px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        transition: 0.5s;
-        border-radius: 0px;
-        position: relative;
-    }
-    .c_button {
-        position: absolute;
-        border: white solid 1px;
-        text-align: center;
-        bottom: 60px;
-        left: 50%;
-        margin-left: -98px;
-        width: 180px;
-        padding: 8px;
-        transition: 0.5s;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 2px;
-    }
-    .svg_icons2 {
-        fill: #42494C;
-    }
-    .legal_grey {
-        display: none;
-    }
-    .footer {
-        display:none;
-    }
+
 }
