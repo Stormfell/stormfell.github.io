@@ -331,6 +331,9 @@ a:active {
     .clearmenu {
         display:none;
     }
+    .content {
+        width: 100%;
+    }
     .modal {
         width: 100%;
         height:;
