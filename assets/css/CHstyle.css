@@ -91,12 +91,12 @@ a:active {
     margin-left: -100px;
 }
 .awesome {
-    color: white;
+    color: rgba(252,76,2,1);
     text-align: center;
     font-size: 60px;
-    font-family: 'Roboto', Helvetica;
+    font-family: Helvetica;
     font-weight: 400;
-    letter-spacing: 13px;
+    letter-spacing: 10px;
     margin-top:250px;
 }
 .awesome2 {
@@ -105,11 +105,43 @@ a:active {
     font-size: 40px;
     font-family: 'Roboto', Helvetica;
     font-weight: 100;
-    letter-spacing: 13px;
+    letter-spacing: 10px;
     opacity: 0.7;
 }
 .awesome3 {
     opacity: 0;
+    letter-spacing: 2px;
+}
+.buttonbar {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #FC4C02;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 300px;
+    height: 28px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}
+.guide {
+    width: 100px;
+    float: left;
+    height: 28px;
+}
+.inguide {
+    color: white;
+    text-align: center;
+    margin-top:0px;
+    font-size: 20px;
+    font-family: 'Roboto', Helvetica;
+    font-weight: 100;
+    opacity: 0.7;
+    transition: .5s;
+}
+.inguide:hover {
+    background: rgba(252,76,2,1.0);
+    opacity: 1.0;
 }
 .container {
     background: #ecf0f1;
@@ -134,7 +166,21 @@ a:active {
     font-size: 20px;
     text-align: center;
 }
-
+.guideTitle {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Helvetica;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+.guideInfo {
+    text-align: center;
+    width: 871px;
+    margin: auto;
+    margin-bottom: 30px;
+}
 .content {
     width: 871px;
     margin: auto;
@@ -177,7 +223,7 @@ a:active {
 .icon {
     margin: auto;
     margin-top:20px;
-    background: rgba(26, 188, 156, 1);
+    background: rgba(252, 76, 2, 1);
     border-radius:100px;
     width: 140px;
     height: 140px;
@@ -200,11 +246,12 @@ a:active {
     width: 180px;
     padding: 8px;
     transition: 0.5s;
-    background: #1abc9c;
+    background: rgba(252,76,2,1);
     border-radius: 2px;
 }
 .c_button:hover {
-    background: #16a085;
+    background: white;
+    color: rgba(252,76,2,1);
     border-radius: 2px;
 }
 
