@@ -126,6 +126,10 @@ a:active {
 .title {
     font-size: 40px;
 }
+.statement {
+    width: 870px;
+    margin: auto;
+}
 .about {
     line-height: 200%;
     width: 100%;
@@ -332,6 +336,9 @@ a:active {
         display:none;
     }
     .content {
+        width: 100%;
+    }
+    .statement {
         width: 100%;
     }
     .modal {
